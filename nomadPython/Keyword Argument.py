@@ -13,7 +13,7 @@ hello = say_hello(age="12", name="nico")
 print(hello)
 
 def say_hi(name, age, gender):
-  return "Hello " + name + " you are" + age + " years old and a " + gender
+  return "Hello " + name + " you are " + age + " years old and a " + gender
 
 hi = say_hi(gender="men", name="nico", age="22")
 print(hi)
