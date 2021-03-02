@@ -7,7 +7,7 @@ def say_hello():
 
 say_hello() # function 실행 -> function 이름뒤에 ()
 
-# function이 인자(값)들을 input 받았을 때
+# function이 인자(값)들을 input 받았을 때, Positional Argument
 def say_hi(who):
   print("hi", who)
   print("goodbye", who)
