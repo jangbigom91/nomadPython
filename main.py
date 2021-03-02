@@ -17,3 +17,11 @@ def say_hi(name, age, gender):
 
 hi = say_hi(gender="men", name="nico", age="22")
 print(hi)
+
+def plus(a, b):
+  if type(b) is int or type(b) is float:
+    return a + b
+  else:
+    return None
+
+print(plus(12,1.2))
