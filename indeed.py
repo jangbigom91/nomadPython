@@ -31,7 +31,6 @@ def extract_indeed_jobs(last_page):
   results = soup.find_all("div", {"class":"jobsearch-SerpJobCard"})
   
   for result in results:
-    title = result.find("div", {"class":"title"})
-    print(title.find("a").string)
-    
+    title = result.find("h2", {"class":"title"}).find("a")["title"]
+    print(title) # indeed 웹페이지 title scrapping
   return jobs
